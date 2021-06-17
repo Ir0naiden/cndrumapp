@@ -14,5 +14,6 @@ window.addEventListener("keydown", playSound, false);
 
 function clickSound(part) {
   const sound = document.getElementById(part);
+  sound.currentTime = 0;
   sound.play();
 }
