@@ -7,16 +7,6 @@
     max-height: 100vh;
 }
 
-#bg {
-    z-index: -1;
-    min-width: 100vw;
-    position: absolute;
-    top: 0;
-    opacity: 30%;
-    background-size: cover;
-    overflow: none;
-}
-
 body, html {
     margin: 0;
     padding: 0;
@@ -97,9 +87,6 @@ kbd {
 
     #kit {
         margin-top: 0;
-    }
-    .key {
-        margin-top: 10vh;
     }
     .key {
         margin: 15px;
