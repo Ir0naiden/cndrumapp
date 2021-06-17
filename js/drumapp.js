@@ -17,9 +17,3 @@ function clickSound(part) {
   sound.currentTime = 0;
   sound.play();
 }
-
-function touchSound(part) {
-  const sound = document.getElementById(part);
-  sound.currentTime = 0;
-  sound.play();
-}

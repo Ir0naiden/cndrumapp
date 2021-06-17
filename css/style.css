@@ -3,6 +3,8 @@
 *{
     box-sizing: border-box;
     font-size: 10px;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 #bg {
@@ -89,7 +91,10 @@ kbd {
     box-shadow:(0 0 1px orange);
 }
   
-@media all and (max-width:768px) {
+@media all and (max-width:1440px) {
+    #bg {
+        min-height: 100vh;
+    }
     #kit {
         margin-top: 0;
     }
