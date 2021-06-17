@@ -10,8 +10,9 @@ function playSound(e) {
   }, 100);
 }
 
-window.addEventListener("keydown", playSound);
+window.addEventListener("keydown", playSound, false);
 
-// function clickSound() {
-//     if (Audio.classlist(keyCode) === div.classList(keyCode))
-// }
+function clickSound(part) {
+  const sound = document.getElementById(part);
+  sound.play();
+}
