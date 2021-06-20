@@ -12,7 +12,15 @@
 <body>
 
     <div id="app">
-            <img src="img/drums.png" id="kit">
+            <img src="img/drums.png" id="kit" usemap="#sound-map">
+
+            <map name="sound-map">
+                <area target="" alt="Kick" title="Kick" onclick="clickSound('kick')" coords="970,832,208" shape="circle">
+                <area target="" alt="Fl tom" title="Fl tom" onclick="clickSound('tom')" coords="765,541,606,748" shape="rect">
+                <area target="" alt="Snare" title="Snare" onclick="clickSound('snare')" coords="1036,565,1286,627" shape="rect">
+                <area target="" alt="Ride" title="Ride" onclick="clickSound('ride')" coords="989,444,658,378" shape="rect">
+                <area target="" alt="Hi Hat" title="Hi Hat" onclick="clickSound('hihat')" coords="1547,395,1323,363" shape="rect">
+            </map>
 
         <div class="keys">
           <div data-key="65" class="key" onclick="clickSound('clap')">
@@ -55,6 +63,8 @@
       </div>
   
       <script src="js/drumapp.js"></script>
+
+      <img src="img/hero1.png" id="bg">
 
 </body>
 </html>
